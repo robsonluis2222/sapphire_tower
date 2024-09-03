@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from 'react'
 import "bootstrap-icons/font/bootstrap-icons.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ImagemCorretora from '../public/corretora.webp'
 import {api} from './api';
 import { Carousel } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
@@ -167,6 +168,9 @@ function App() {
           <span className='title-of'>
             SAPPHIRE TOWER
           </span>
+          <span className='subtitle-nav'>
+            O Refúgio de Luxo na Barra Norte
+          </span>
           <span className='apresentacao'>
             AV. BRASIL - BARRA NORTE
           </span>
@@ -182,7 +186,7 @@ function App() {
       <div className='video-frame' id='section1'>
           <div className='title-video-frame'>
             <span className='title-video'>Sapphire Tower</span>
-            <span className='subtitle-video'>UMA JOIA IMOBILIÁRIA QUE REFLETE DESIGN E SOFISTICAÇÃO.</span>
+            <span className='subtitle-video'>DESCUBRA UM NOVO PADRÃO DE VIDA EM BALNEÁRIO CAMBORIÚ !</span>
           </div>
           <div className='video'>
             <span className='video-btn' onClick={openVideoModal}>VÍDEO</span>
@@ -191,7 +195,7 @@ function App() {
 
       <div className='about'>
         <div className='about-title-frame'>
-          <img className='imagem-corretora' src="https://placehold.co/150x300" alt="" />
+          <img className='imagem-corretora' src={ImagemCorretora} alt="" />
           <span className='about-title'>NO <span id='especific-color'>SAPPHIRE TOWER</span>, CADA DETALHE REFLETE UM PADRÃO INIGUALÁVEL DE LUXO. CONFIE EM <span id='especific-color'>ELIZÂNGELA RUFATTO</span> PARA TORNAR ESTE SONHO UMA REALIDADE.</span>
         </div>
       </div>
@@ -475,6 +479,33 @@ function App() {
         </Carousel>
       </div>
 
+      <div className='copy-frame'>
+        <span className='copy1'>
+          Se você procura um lar que una elegância, conforto e uma localização privilegiada, a <span className='text-especial'>Sapphire Tower</span> é a escolha ideal. Este projeto exclusivo da <span className='text-especial'>FG Empreendimentos</span>, com entrega prevista para 2027, vai além de um simples imóvel; é a realização de um <span className='text-especial'>estilo de vida inigualável</span>.
+        </span>
+        <span className='copy2'>
+          Por Que a Sapphire Tower é Incomparável?
+        </span>
+        <div className='topics-copy'>
+          <div className="topic">
+            <h1>Design Excepcional</h1>
+            <h2>Apartamentos de 4 suítes a partir de 146 m², meticulosamente projetados para oferecer um ambiente sofisticado e acolhedor, perfeito para a sua família.</h2>
+          </div>
+          <div className="topic">
+            <h1>Exclusividade em Cada Andar</h1>
+            <h2>Com apenas 2 apartamentos por andar, você desfruta de privacidade e tranquilidade em um edifício imponente de 59 andares e 215 metros de altura.</h2>
+          </div>
+          <div className="topic">
+            <h1>Lazer Sem Limites</h1>
+            <h2>Desfrute de 2 andares inteiramente dedicados ao lazer e um rooftop de 2.300 m², ideal para relaxar e socializar, com vistas deslumbrantes que vão tirar o seu fôlego.</h2>
+          </div>
+          <div className="topic">
+            <h1>Facilidade de Pagamento</h1>
+            <h2>Aproveite condições excepcionais de pagamento, com a possibilidade de financiar em até 100x diretamente com a construtora. Um investimento que se encaixa perfeitamente no seu planejamento financeiro.</h2>
+          </div>
+        </div>
+      </div>
+
       <div className='stage-frame'>
         <div className='title-stages'>
           <span className='title-frame-stage'>Estágio da Obra</span>
@@ -554,6 +585,15 @@ function App() {
         <div className='location'>
         <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.689369292073!2d-48.6372817!3d-26.9767346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8c9f8f66d9279%3A0x95a1e7192258f3b2!2sAv.%20Brasil%2C%20240%20-%20Centro%2C%20Balne%C3%A1rio%20Cambori%C3%BA%20-%20SC%2C%2088330-040!5e0!3m2!1spt-BR!2sbr!4v1722908745186!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+      </div>
+
+      <div className='copywrite-2'>
+        <span className='write1'>
+          Uma Oportunidade Única !
+        </span>
+        <span className='write2'>
+          As unidades da <span className='link-to-register'>Sapphire Tower</span> são limitadas e a demanda é crescente. Não perca a <span className='text-especial'>chance</span> de fazer parte deste <span className='text-especial'>projeto inovador</span>. <span className='link-to-register'>Cadastre-se agora</span> e receba informações <span className='text-especial'>exclusivas</span> sobre este empreendimento que representa o auge do <span className='text-especial'>luxo</span> e da <span className='text-especial'>sofisticação</span>.
+        </span>
       </div>
 
       <div className='contact-frame'>

@@ -42,9 +42,16 @@ body{
   margin-top: 200px;
   color: white;
 }
+.subtitle-nav{
+  font-size: 25px;
+  font-family: "Padauk", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+}
 .apresentacao{
   font-family: "Padauk", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: white;
@@ -53,7 +60,7 @@ body{
 .lancamento{
   font-family: "Padauk", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   color: white;
   padding: 2px 7px;
@@ -186,8 +193,8 @@ body{
   padding-right: 50px;
 }
 .imagem-corretora{
-  width: 150px;
-  height: 300px;
+  width: 250px;
+  border-radius: 15px;
   border: 1px solid #005A66;
 }
 .about-title{
@@ -515,6 +522,104 @@ select{
   background-color: rgb(207, 204, 204);
   border: 1px solid grey;
   margin-bottom: 100px;
+}
+.copy-frame{
+  margin-top: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.copy1{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  text-align: center;
+  width: 80vw;
+  font-size: 20px;
+}
+.text-especial{
+  font-weight: bold;
+  font-style: italic;
+  color: #005A66;
+}
+.copy2{
+  margin-top: 58px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  text-align: center;
+  width: 80vw;
+  font-size: 22px;
+  color: #013b42;
+}
+.topics-copy{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.topic{
+  border: 2px solid #03444d;
+  border-radius: 15px;
+  width: 280px;
+  height: 220px;
+  margin: 28px;
+  padding: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: #012d33;
+}
+.topic:hover{
+  transform: scale(1.1);
+  background-color: #03444d;
+  color: white;
+}
+.topic h1{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+.topic h2{
+  font-size: 16px;
+}
+.copywrite-2{
+  margin-top: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 38px;
+}
+.write1{
+  font-family: "Prata", serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  color: #005A66;
+  margin-bottom: 28px;
+}
+.write2{
+  font-family: "Prata", serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 22px;
+  width: 80vw;
+  color: black;
+  margin-bottom: 28px;
+}
+.link-to-register{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  color: #005A66;
+  cursor: pointer;
+}
+.link-to-register:hover{
+  color: #038596;
 }
 
 
