@@ -186,18 +186,9 @@ function App() {
       <div className='video-frame' id='section1'>
           <div className='title-video-frame'>
             <span className='title-video'>Sapphire Tower</span>
-            <span className='subtitle-video'>DESCUBRA UM NOVO PADRÃO DE VIDA EM BALNEÁRIO CAMBORIÚ !</span>
+            <span className='subtitle-video'>DESCUBRA UM NOVO <strong>PADRÃO DE VIDA</strong> EM <strong>BALNEÁRIO CAMBORIÚ</strong> !</span>
           </div>
-          <div className='video'>
-            <span className='video-btn' onClick={openVideoModal}>VÍDEO</span>
-          </div>
-      </div>
 
-      <div className='about'>
-        <div className='about-title-frame'>
-          <img className='imagem-corretora' src={ImagemCorretora} alt="" />
-          <span className='about-title'>NO <span id='especific-color'>SAPPHIRE TOWER</span>, CADA DETALHE REFLETE UM PADRÃO INIGUALÁVEL DE LUXO. CONFIE EM <span id='especific-color'>ELIZÂNGELA RUFATTO</span> PARA TORNAR ESTE SONHO UMA REALIDADE.</span>
-        </div>
       </div>
 
       <div className='carrossel'>
@@ -506,6 +497,22 @@ function App() {
         </div>
       </div>
 
+      <div className='video'>
+        <span className='video-btn' onClick={openVideoModal}>VÍDEO</span>
+      </div>
+      <div className='video'>
+        <a href="#form" className='linker'><span className='video-btn'>SAIBA MAIS</span></a>
+      </div>
+
+      <div className='copywrite-2'>
+        <span className='write1'>
+          Uma Oportunidade Única !
+        </span>
+        <span className='write2'>
+          As unidades da <span className='link-to-register'>Sapphire Tower</span> são limitadas e a demanda é crescente. Não perca a <span className='text-especial'>chance</span> de fazer parte deste <span className='text-especial'>projeto inovador</span>. <span className='link-to-register'>Cadastre-se agora</span> e receba informações <span className='text-especial'>exclusivas</span> sobre este empreendimento que representa o auge do <span className='text-especial'>luxo</span> e da <span className='text-especial'>sofisticação</span>.
+        </span>
+      </div>
+
       <div className='stage-frame'>
         <div className='title-stages'>
           <span className='title-frame-stage'>Estágio da Obra</span>
@@ -578,26 +585,15 @@ function App() {
         </div>
       </div>
 
-      <div className='location-frame'>
-        <div className='location-title'>
-          <span className='title-location'>Localização</span>
+      <div className='about'>
+        <div className='about-title-frame'>
+          <img className='imagem-corretora' src={ImagemCorretora} alt="" />
+          <span className='about-title'>NO <span id='especific-color'>SAPPHIRE TOWER</span>, CADA DETALHE REFLETE UM PADRÃO INIGUALÁVEL DE LUXO. CONFIE EM <span id='especific-color'>ELIZÂNGELA RUFATTO</span> PARA TORNAR ESTE SONHO UMA REALIDADE.</span>
         </div>
-        <div className='location'>
-        <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.689369292073!2d-48.6372817!3d-26.9767346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8c9f8f66d9279%3A0x95a1e7192258f3b2!2sAv.%20Brasil%2C%20240%20-%20Centro%2C%20Balne%C3%A1rio%20Cambori%C3%BA%20-%20SC%2C%2088330-040!5e0!3m2!1spt-BR!2sbr!4v1722908745186!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-
-      <div className='copywrite-2'>
-        <span className='write1'>
-          Uma Oportunidade Única !
-        </span>
-        <span className='write2'>
-          As unidades da <span className='link-to-register'>Sapphire Tower</span> são limitadas e a demanda é crescente. Não perca a <span className='text-especial'>chance</span> de fazer parte deste <span className='text-especial'>projeto inovador</span>. <span className='link-to-register'>Cadastre-se agora</span> e receba informações <span className='text-especial'>exclusivas</span> sobre este empreendimento que representa o auge do <span className='text-especial'>luxo</span> e da <span className='text-especial'>sofisticação</span>.
-        </span>
       </div>
 
       <div className='contact-frame'>
-        <span className='contact-title'>Entre em contato</span>
+        <span className='contact-title' id="form">Entre em contato</span>
         <span className='subtitle-contact'>Preencha os dados logo abaixo para que possamos entrar em contato.</span>
         <div className='form-frame'>
           <div className='form-action'>
@@ -677,6 +673,15 @@ function App() {
 
           </div>
 
+        </div>
+      </div>
+
+      <div className='location-frame'>
+        <div className='location-title'>
+          <span className='title-location'>Localização</span>
+        </div>
+        <div className='location'>
+        <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.689369292073!2d-48.6372817!3d-26.9767346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8c9f8f66d9279%3A0x95a1e7192258f3b2!2sAv.%20Brasil%2C%20240%20-%20Centro%2C%20Balne%C3%A1rio%20Cambori%C3%BA%20-%20SC%2C%2088330-040!5e0!3m2!1spt-BR!2sbr!4v1722908745186!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
 

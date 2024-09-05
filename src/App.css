@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 body{
   margin: 0;
@@ -43,10 +44,13 @@ body{
   color: white;
 }
 .subtitle-nav{
-  font-size: 25px;
-  font-family: "Padauk", sans-serif;
-  font-size: 23px;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 600;
+  font-size: 26px;
+  width: 70vw;
+  text-align: center;
+  font-style: italic;
   color: white;
 }
 .apresentacao{
@@ -116,6 +120,7 @@ body{
   font-optical-sizing: auto;
   font-weight: 500;
   font-size: 18px;
+  color: #cd6133 !important;
   width: 80vw;
   font-style: normal;
 }
@@ -305,7 +310,11 @@ h3{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 108px;
+  margin-top: 308px;
+}
+a{
+  outline: none;
+  text-decoration: none;
 }
 .title-location{
   font-family: "Prata", serif;
@@ -559,13 +568,13 @@ select{
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 98vw;
 }
 .topic{
   border: 2px solid #03444d;
   border-radius: 15px;
-  width: 280px;
-  height: 220px;
+  width: 270px;
+  height: 270px;
   margin: 28px;
   padding: 20px;
   transition: 0.5s;
@@ -645,7 +654,7 @@ select{
     margin-top: 160px;
   }
   .saber-mais-span{
-    margin-top: 70px;
+    margin-top: -10px;
   }
   #iframe{
     width: 90vw;
